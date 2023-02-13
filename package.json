@@ -1,5 +1,6 @@
 {
   "name": "react-math-magicians",
+  "extends": "airbnb",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
@@ -8,5 +9,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4"
+  }
 }
