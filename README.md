@@ -90,14 +90,11 @@ In order to run this project you need:
 - [ ] Link your PC to GitHub
 - [ ] Clone this repository to your desired folder:
 
-```
+`
 git clone https://github.com/rivasbolinga/React-Math-magicians.git
-
+`
 - [ ] Open the file in your code editor
 
-```
-code .
-```
 
 
 ### 2. Create React App:
