@@ -17,12 +17,9 @@ alt="logo" width="140"  height="auto"  />
 
 </div>
 
-
 <div align="center">
 
 </div>
-
- 
  
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
@@ -59,7 +56,7 @@ alt="logo" width="140"  height="auto"  />
 <a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-<img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" width="60" height="60" margin="100px"/></a>
+<img align="center" src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg" alt="react" width="60" height="60"/></a>
 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
@@ -123,7 +120,7 @@ Run these commands:
 - [ ] `npm start`
 
 
-###  Instal linters from React and redux:
+###  Instal linters for React and Redux:
 
 Here the link to install your linters: https://github.com/microverseinc/linters-config
 
