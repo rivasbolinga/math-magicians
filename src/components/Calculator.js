@@ -1,42 +1,50 @@
+import React, { useState } from 'react';
+import calculate from './logic/calculate';
 
-const Calculator = () => {
+function Calculator() {
+  const [result, setResult] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const handleClick = (buttonName) => {
+    setResult(calculate(result, buttonName));
+  };
+//Calculator html body with the handle click function when we click button (onClick)
   return (
-  <div className="calculadora">
-  <div className="display-screen">
-    <div className="previous-operand">
+    <div className='calculadora'>
+    <div className='display-screen-container'>
+      <input className='display-screen' type="text" value={result.next || result.total || '0'}  />
+      </div>
+      <div className='all-btns'>
+      <div className='buttons'>
+        <button className='button' onClick={() => handleClick('AC')}>AC</button>
+        <button className='button' onClick={() => handleClick('+/-')}>+/-</button>
+        <button className='button' onClick={() => handleClick('%')}>%</button>
+        <button className='button' onClick={() => handleClick('7')}>7</button>
+        <button className='button' onClick={() => handleClick('8')}>8</button>
+        <button className='button' onClick={() => handleClick('9')}>9</button>
+        <button className='button' onClick={() => handleClick('4')}>4</button>
+        <button className='button' onClick={() => handleClick('5')}>5</button>
+        <button className='button' onClick={() => handleClick('6')}>6</button>
+        <button className='button' onClick={() => handleClick('1')}>1</button>
+        <button className='button' onClick={() => handleClick('2')}>2</button>
+        <button className='button' onClick={() => handleClick('3')}>3</button>
+        <button className='button zero' onClick={() => handleClick('0')}>0</button>
+        <button className='button' onClick={() => handleClick('.')}>.</button>
+        </div>
+      <div className="operations">
+       <button className="ope divide" onClick={() => handleClick('÷')}>÷</button>
+       <button className="ope por" onClick={() => handleClick('x')}>x</button>
+       <button className="ope minus" onClick={() => handleClick('-')}>-</button>
+       <button className="ope sum"onClick={() => handleClick('+')}>+</button>
+       <button className="equal"onClick={() => handleClick('=')}>=</button>
     </div>
-    <div className="current-operand">0</div>
-  </div>
-  <div className="all-btns">
- 
-  <div className="buttons">
-  
-    <button className="delete delet">AC</button>
-    <button className="delete clear">+/-</button>
-    <button className="percentage">%</button>
-    <button className="number seven">7</button>
-    <button className="number eigth">8</button>
-    <button className="number nine">9</button>
-    <button className="number four">4</button>
-    <button className="number five">5</button>
-    <button className="number six">6</button>
-    <button className="number one">1</button>
-    <button className="number two">2</button>
-    <button className="number three">3</button>
-    <button className="number zero">0</button>
-    <button className="number dot">.</button>
     </div>
-  <div className="operations">
-       <button className="ope divide">÷</button>
-       <button className="ope por">x</button>
-       <button className="ope minus">-</button>
-       <button className="ope sum">+</button>
-       <button className="equal">=</button>
     </div>
-
-</div>
-</div>
   );
 }
+
 
 export default Calculator;

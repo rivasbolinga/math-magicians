@@ -56,6 +56,7 @@
 - [ ] **[Linters React and Redux set up and passed]**
 - [ ] **[Follow Gitflow]**
 - [ ] **[Create React App and working]**
+- [ ] **[Add event onclick to calculate using the calculate function given]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,10 +91,18 @@ In order to run this project you need:
 - [ ] Link your PC to GitHub
 - [ ] Clone this repository to your desired folder:
 
-`
+
+```
+
 git clone https://github.com/rivasbolinga/React-Math-magicians.git
-`
-- [ ] Open the file in your code editor
+```
+
+```
+cd ToDoList-App
+```
+
+- Open the file in your code editor
+
 
 
 
@@ -103,6 +112,23 @@ Run these commands:
 - [ ] `cd my-app`
 - [ ] `npm start`
 
+
+
+To run Stylelint and ESLint tests, run the following commands respectively:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+```
+npx eslint .
+```
+
+To deploy this project run
+
+```
+npm run deploy
+```
 
 
 
@@ -126,8 +152,8 @@ Run these commands:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Create a calculator to make simple operations]**
 - [ ] **[Create dinamic website with a navbar and different sections]**
+- [ ] **[Improve styling]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
