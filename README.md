@@ -91,22 +91,18 @@ In order to run this project you need:
 - [ ] Link your PC to GitHub
 - [ ] Clone this repository to your desired folder:
 
+
 ```
+
 git clone https://github.com/rivasbolinga/React-Math-magicians.git
+```
 
 ```
 cd ToDoList-App
 ```
 
-- [ ] Open the file in your code editor
+- Open the file in your code editor
 
-```
-code .
-```
-
-### Install
-
-Install this project with:
 
 
 
@@ -121,8 +117,6 @@ npx stylelint "**/*.{css,scss}"
 ```
 npx eslint .
 ```
-
-### Deployment <a name="deployment"></a>
 
 To deploy this project run
 
