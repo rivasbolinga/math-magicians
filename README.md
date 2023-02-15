@@ -13,7 +13,7 @@
  
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
-**[Math Magicians]** is a website built with React that renders a calculator where the user can make simple math operations. It is part of the 3rd module: React of the Microverse programm curriculum.
+**[Math Magicians]** is a website built with React that renders a calculator where the user can make simple math operations. It is part of the 3rd module: React of the Microverse programm curriculum. In this part of the project I have done the React setup
 
 <!-- TABLE OF CONTENTS -->
 
@@ -46,9 +46,9 @@
 
 <a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
-
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-<img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" width="55" height="55"/></a>
+<img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="react" width="60" height="60" margin="100px"/></a>
+
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 
@@ -106,7 +106,13 @@ cd ToDoList-App
 
 
 
-### Run tests <a name="run-tests"></a>
+### 2. Create React App:
+Run these commands:
+- [ ] `npx create-react-app my-app`
+- [ ] `cd my-app`
+- [ ] `npm start`
+
+
 
 To run Stylelint and ESLint tests, run the following commands respectively:
 
@@ -123,6 +129,7 @@ To deploy this project run
 ```
 npm run deploy
 ```
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -174,7 +181,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/rivasbolinga/AwesomeBooks-library/blob/master/MIT.md) licensed.
+This project is [MIT](https://github.com/rivasbolinga/React-Math-magicians/blob/1-setup/MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
