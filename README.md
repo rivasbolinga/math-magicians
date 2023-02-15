@@ -140,6 +140,7 @@ npx stylelint "**/*.{css,scss}"
 npx eslint "**/*.{js,jsx}"
 
 ```
+###  Run test linters:
 
 To deploy this project run
 
