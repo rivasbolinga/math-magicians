@@ -9,7 +9,18 @@
   border: 2px solid orange;
 }
 
-
+.display-screen {
+  height: 100px;
+  display: flex;
+  font-size: 30px;
+  width: 396px;
+  justify-content: end;
+  color: white;
+  align-items: flex-end;
+  background-color: rgb(143, 142, 142);
+  border: none;
+  text-align: end;
+}
 
 .all-btns {
   display: flex;
@@ -31,7 +42,7 @@
   background-color: rgba(250, 132, 22, 0.86);
 }
 
-.button {
+button {
   width: 100px;
   height: 70px;
   border: 0.5px solid grey;
