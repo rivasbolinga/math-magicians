@@ -1,13 +1,13 @@
 import './input.css';
-
-const Input = () => {
+import PropTypes from 'prop-types';
+const Input = ( { first, result } ) => {
   return (
   <div className="display-screen">
     <div className = 'result'>
-      0
+      {result}
     </div>
-    <div className = 'second-op'>
-      0
+    <div className = 'first'>
+    {first}
     </div>
   </div>
   )

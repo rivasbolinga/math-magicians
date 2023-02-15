@@ -1,7 +1,11 @@
 import './buttons.css';
-
-const Button = ({ name }) => {
-  return <div className='button'>{name}</div>
+import PropTypes from 'prop-types';
+const Button = ({ name, handleClick }) => {
+  return (
+    <div
+    onClick = {() => handleClick(name)}
+    className='button'>{name}</div>
+  )
 }
 
 export default Button;
