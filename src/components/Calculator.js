@@ -2,22 +2,21 @@ import React, { useState } from 'react';
 import calculate from './logic/calculate';
 
 function Calculator() {
-  const [result, setCalculatorData] = useState({
+  const [result, setResult] = useState({
     total: null,
     next: null,
     operation: null,
   });
 
   const handleClick = (buttonName) => {
-    setCalculatorData(calculate(result, buttonName));
+    setResult(calculate(result, buttonName));
   };
-
+//Calculator html body with the handle click function when we click button (onClick)
   return (
     <div className='calculadora'>
     <div className='display-screen-container'>
       <input className='display-screen' type="text" value={result.next || result.total || '0'}  />
       </div>
-
       <div className='all-btns'>
       <div className='buttons'>
         <button className='button' onClick={() => handleClick('AC')}>AC</button>

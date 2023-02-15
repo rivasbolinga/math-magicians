@@ -56,6 +56,7 @@
 - [ ] **[Linters React and Redux set up and passed]**
 - [ ] **[Follow Gitflow]**
 - [ ] **[Create React App and working]**
+- [ ] **[Add event onclick to calculate using the calculate function given]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -150,8 +151,8 @@ npm run deploy
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Create a calculator to make simple operations]**
 - [ ] **[Create dinamic website with a navbar and different sections]**
+- [ ] **[Improve styling]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
