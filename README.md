@@ -1,14 +1,27 @@
-<a name="readme-top"></a>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/103900838/219034373-8a1ee6a4-9d0a-469b-a795-e9de496403a3.svg"
+alt="logo" width="140"  height="auto"  />
+  <br/>
+
+
+
+# 📖 [MATH_MAGICIANS] <a name="about-project"></a>
+
+
+</div>
+
+<div display="flex" flex-direction="row">
+
+<img width="607" alt="Screenshot 2023-02-14 at 09 32 47" src="https://user-images.githubusercontent.com/103900838/219034614-c3b7e30d-d399-4785-952a-c24719df1392.png">
+
+
+</div>
+
 
 <div align="center">
 
 </div>
 
-<div align="center">
-
-</div>
-
- # 📖 [Math Magicians] 
  
  
  <a name="about-project"></a>
@@ -36,7 +49,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 </div>
 
@@ -97,22 +109,26 @@ In order to run this project you need:
 git clone https://github.com/rivasbolinga/React-Math-magicians.git
 ```
 
-```
-cd ToDoList-App
-```
 
-- Open the file in your code editor
+- [ ] Open the file in your code editor
 
 
 
 
-### 2. Create React App:
+###  Create React App:
+
 Run these commands:
 - [ ] `npx create-react-app my-app`
 - [ ] `cd my-app`
 - [ ] `npm start`
 
 
+###  Instal linters from React and redux:
+
+Here the link to install your linters: https://github.com/microverseinc/linters-config
+
+
+###  Run test linters:
 
 To run Stylelint and ESLint tests, run the following commands respectively:
 
@@ -121,7 +137,8 @@ npx stylelint "**/*.{css,scss}"
 ```
 
 ```
-npx eslint .
+npx eslint "**/*.{js,jsx}"
+
 ```
 
 To deploy this project run
