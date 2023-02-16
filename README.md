@@ -140,13 +140,38 @@ npx eslint "**/*.{js,jsx}"
 ```
 ###  Run test linters:
 
-To deploy this project run
+**To deploy this project  with react:**
+
+1.Install gh-pages:
+
+```
+npm i gh-pages
+```
+2. Change package JSON, 
+
+-adding inside "scrpits":
+
+```
+   "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+```
+-adding a homepage:
+
+```
+  "homepage": "https://rivasbolinga.github.io/React-Math-magicians/",
+```
+3. Update:
+
+```
+npm run build
+```
+
+4. Update:
 
 ```
 npm run deploy
+
 ```
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
