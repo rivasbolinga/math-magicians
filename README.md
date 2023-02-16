@@ -69,11 +69,12 @@ alt="logo" width="140"  height="auto"  />
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Not available at the moment
+You can have a Live Demo: https://rivasbolinga.github.io/React-Math-magicians/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
