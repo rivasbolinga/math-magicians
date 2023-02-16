@@ -166,11 +166,10 @@ npm i gh-pages
 npm run build
 ```
 
-4. Update:
+4. Finally, deploy:
 
 ```
 npm run deploy
-
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
