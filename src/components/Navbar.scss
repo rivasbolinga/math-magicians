@@ -1,0 +1,28 @@
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(139, 139, 139);
+  height: 80px;
+  background-color: rgb(31, 22, 71);
+
+  .navbar-title {
+    font-family: 'Press Start 2P', cursive;
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(222, 191, 88);
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+    
+    .navbar-link {
+      text-decoration: none;
+      color: rgb(223, 182, 35);
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.calculadora {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(143, 142, 142);
+  color: white;
+  border: 2px solid orange;
+}
+
+.display-screen {
+  height: 100px;
+  display: flex;
+  font-size: 30px;
+  width: 396px;
+  justify-content: end;
+  color: white;
+  align-items: flex-end;
+  background-color: rgb(143, 142, 142);
+  border: none;
+  text-align: end;
+}
+
+.all-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+}
+
+.ope {
+  background-color: rgba(250, 132, 22, 0.86);
+}
+
+button {
+  width: 100px;
+  height: 70px;
+  border: 0.5px solid grey;
+}
+
+.zero {
+  grid-column: 1/3;
+  width: 200px;
+}
