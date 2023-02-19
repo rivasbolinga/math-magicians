@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
-import './Calculator.scss';
+import './Calculator.scss'
 function Calculator() {
   const [result, setResult] = useState({
     total: null,
@@ -14,8 +14,10 @@ function Calculator() {
 //Calculator html body with the handle click function when we click button (onClick)
   return (
     <div className='calculadora'>
+    <div className='deco-div'>
     <div className='display-screen-container'>
       <input className='display-screen' type="text" value={result.next || result.total || '0'}  />
+      </div>
       </div>
       <div className='all-btns'>
       <div className='buttons'>

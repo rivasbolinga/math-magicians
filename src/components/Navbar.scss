@@ -15,13 +15,14 @@
     font-size: 30px;
     color: rgb(222, 191, 88);
   }
+
   .navbar-nav {
     display: flex;
     flex-direction: row;
     gap: 20px;
     list-style: none;
     padding: 10px;
-    
+
     .navbar-link {
       text-decoration: none;
       background-color: rgb(223, 182, 35);
