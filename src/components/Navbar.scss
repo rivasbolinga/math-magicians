@@ -1,5 +1,5 @@
 .hamburger-container {
-    display: flex;
+    display: block;
   }
 .container-nav {
   display: flex;
@@ -19,15 +19,25 @@
     color: rgb(222, 191, 88);
   }
 
-  .navbar-nav {
-    display: none;
+  .open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
   }
 }
 @media only screen and (min-width:768px) {
 
-  // .hamburger-container {
-  //   display: none;
-  // }
+  .hamburger-container {
+    display: none;
+  }
   .navbar-nav {
     display: flex;
     flex-direction: row;
