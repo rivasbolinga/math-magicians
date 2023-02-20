@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Math-magicians/static/css/main.47257abe.css",
-    "main.js": "/React-Math-magicians/static/js/main.30d96273.js",
-    "static/js/787.dfd053b6.chunk.js": "/React-Math-magicians/static/js/787.dfd053b6.chunk.js",
-    "index.html": "/React-Math-magicians/index.html",
-    "main.47257abe.css.map": "/React-Math-magicians/static/css/main.47257abe.css.map",
-    "main.30d96273.js.map": "/React-Math-magicians/static/js/main.30d96273.js.map",
-    "787.dfd053b6.chunk.js.map": "/React-Math-magicians/static/js/787.dfd053b6.chunk.js.map"
+    "main.css": "/static/css/main.c63a3f3c.css",
+    "main.js": "/static/js/main.8ac9ba09.js",
+    "static/js/787.dfd053b6.chunk.js": "/static/js/787.dfd053b6.chunk.js",
+    "static/media/pizarra-vacia.jpg": "/static/media/pizarra-vacia.77d11f853db71c50dfc3.jpg",
+    "static/media/dan-cristian-padure-h3kuhYUCE9A-unsplash.jpg": "/static/media/dan-cristian-padure-h3kuhYUCE9A-unsplash.3ff47477590647eca0fd.jpg",
+    "index.html": "/index.html",
+    "main.c63a3f3c.css.map": "/static/css/main.c63a3f3c.css.map",
+    "main.8ac9ba09.js.map": "/static/js/main.8ac9ba09.js.map",
+    "787.dfd053b6.chunk.js.map": "/static/js/787.dfd053b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47257abe.css",
-    "static/js/main.30d96273.js"
+    "static/css/main.c63a3f3c.css",
+    "static/js/main.8ac9ba09.js"
   ]
 }
