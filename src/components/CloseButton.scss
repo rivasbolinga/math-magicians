@@ -1,7 +1,13 @@
+.close-container {
+  position: absolute;
+  top: 2;
+  left: 2;
+  background-color: rgb(223, 182, 35);
+  border-radius: 4px;
+  border: 2px solid white;
 .close-btn {
+  padding: 10px;
   font-size: 30px;
-  color: yellow;
-  position: fixed;
-  top: 0;
-  right: 0;
+  color: black;
+}
 }

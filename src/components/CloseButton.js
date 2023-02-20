@@ -1,6 +1,15 @@
 import './CloseButton.scss'
-const CloseButton = () => {
-  <div className="close-btn">x</div>
+import PropTypes from 'prop-types';
+const CloseButton = ({onClick}) => {
+  return(
+  <div className='close-container'>
+    <div className="close-btn" onClick= {onClick}>x</div>
+  </div>
+  )
 }
+
+CloseButton.propTypes = {
+  onClick: PropTypes.func.isRequired
+};
 
 export default CloseButton;

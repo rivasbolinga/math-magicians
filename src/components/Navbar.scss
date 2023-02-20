@@ -14,7 +14,7 @@
 
   .navbar-title {
     font-family: 'Press Start 2P', cursive;
-    padding: 30px;
+    padding: 20px;
     font-size: 30px;
     color: rgb(222, 191, 88);
   }
@@ -24,14 +24,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-image: url('./dan-cristian-padure-h3kuhYUCE9A-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
   }
+  .navbar-nav {
+    display: none;
+  }
+  .navbar-nav.open {
+    display: flex;
+  
+  .navbar-link{
+    text-decoration: none;
+    background-color: rgb(223, 182, 35);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+  }
+}
 }
 @media only screen and (min-width:768px) {
 
