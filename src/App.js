@@ -1,5 +1,4 @@
 import Calculator from './components/Calculator.js';
-import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import  Home  from './components/Home.js';
 import Quote from './components/Quote';

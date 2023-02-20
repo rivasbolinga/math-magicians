@@ -12,11 +12,20 @@
   top: 3px;
   right: 4px;
 }
-  .burger {
-    margin: 4px 4px 0 4px;
-     width: 25px;
-     height: 2px;
-     background-color: black;
-   }
 
+.burger {
+  margin: 4px 4px 0 4px;
+  width: 25px;
+  height: 2px;
+  background-color: black;
+}
 
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+
+    .burger {
+      display: none;
+    }
+  }
+}
