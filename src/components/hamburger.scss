@@ -1,0 +1,22 @@
+.hamburger {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(222, 191, 88);
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid white;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  position: fixed;
+  top: 3px;
+  right: 4px;
+}
+  .burger {
+    margin: 4px 4px 0 4px;
+     width: 25px;
+     height: 2px;
+     background-color: black;
+   }
+
+

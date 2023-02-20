@@ -1,3 +1,6 @@
+.hamburger-container {
+    display: flex;
+  }
 .container-nav {
   display: flex;
   flex-direction: row;
@@ -16,6 +19,15 @@
     color: rgb(222, 191, 88);
   }
 
+  .navbar-nav {
+    display: none;
+  }
+}
+@media only screen and (min-width:768px) {
+
+  // .hamburger-container {
+  //   display: none;
+  // }
   .navbar-nav {
     display: flex;
     flex-direction: row;
