@@ -7,7 +7,8 @@ import React, { useState, useEffect } from 'react';
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [showMenu, setShowMenu] = useState(false);
-
+// -- useEffect called to add an event to the window to set mobile version state 
+//when the screen is - thank 768.
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
@@ -16,14 +17,17 @@ const Navbar = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+// -- When hamburger button is clicked, show menu
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
-  
+
+// -- when close menu called, close menu
   const closeMenu = () => {
     setShowMenu(false);
   };
 
+// --when close menu clicked, call function close menu
   const handleLinkClick = () => {
     closeMenu();
   }
