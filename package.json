@@ -1,6 +1,5 @@
 {
   "name": "react-math-magicians",
-  "homepage": "https://math-magicians-ni7a.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
