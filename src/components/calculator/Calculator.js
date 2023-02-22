@@ -13,6 +13,7 @@ function Calculator() {
   };
 //Calculator html body with the handle click function when we click button (onClick)
   return (
+    <div className='calc-container'>
     <div className='calculadora'>
     <div className='deco-div'>
     <div className='display-screen-container'>
@@ -42,6 +43,7 @@ function Calculator() {
        <button className="ope minus" onClick={() => handleClick('-')}>-</button>
        <button className="ope sum"onClick={() => handleClick('+')}>+</button>
        <button className="equal"onClick={() => handleClick('=')}>=</button>
+    </div>
     </div>
     </div>
     </div>

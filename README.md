@@ -10,12 +10,10 @@ alt="logo" width="140"  height="auto"  />
 
 </div>
 
-<div display="flex" flex-direction="row">
-
-<img width="607" alt="Screenshot 2023-02-14 at 09 32 47" src="https://user-images.githubusercontent.com/103900838/219034614-c3b7e30d-d399-4785-952a-c24719df1392.png">
 
 
-</div>
+<img width="1007" align="center" alt="Screenshot 2023-02-14 at 09 32 47" src="https://user-images.githubusercontent.com/103900838/220071889-dc82ea13-d028-435d-84bd-7b8ede9ac33f.png">
+
 
 <div align="center">
 
@@ -62,10 +60,10 @@ alt="logo" width="140"  height="auto"  />
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application.-->
-- [ ] **[Linters React and Redux set up and passed]**
-- [ ] **[Follow Gitflow]**
-- [ ] **[Create React App and working]**
-- [ ] **[Add event onclick to calculate using the calculate function given]**
+- [ ] **[Totally responsive]**
+- [ ] **[Pop-up menu for mobile version]**
+- [ ] **[three pages: home, quote and calculator]**
+- [ ] **[Calculator ot make simple operations]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -192,8 +190,9 @@ npm run deploy
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Create dinamic website with a navbar and different sections]**
+- [ ] **[Previous and current operantion in the display opf the calculator]**
 - [ ] **[Improve styling]**
+- [ ] **[More problems]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

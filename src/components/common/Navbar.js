@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import './Navbar.scss';
 import Hamburger from './Hamburger';
 import CloseButton from './CloseButton';
@@ -33,8 +33,8 @@ const Navbar = () => {
   }
 
   const navBarClass = `navbar-nav ${showMenu ? 'open' : ''}`;
-
-  return (
+  return(
+  <>
     <nav className="navbar">
       <div className='container-nav'>
         <a className='navbar-title'>Math Magicians</a>
@@ -78,8 +78,12 @@ const Navbar = () => {
           </li>      
         </ul>
       </div>
+     
     </nav>
-  );
+    <Outlet />
+    </>
+  ); 
+
 };
 
 export default Navbar;

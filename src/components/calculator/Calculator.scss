@@ -77,15 +77,19 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
+  .calc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .calculadora {
     width: 400px;
-    padding: 40px 20px 40px 40px;
-    margin-left: 200px;
+    padding: 30px 20px 30px 40px;
   }
 
   button {
-    width: 80px;
-    height: 80px;
+    width: 74px;
+    height: 60px;
     border-radius: 10px;
     font-size: 22px;
   }
@@ -97,7 +101,7 @@ button {
 
   .display-screen {
     width: 300px;
-    height: 160px;
+    height: 150px;
     margin-left: 35px;
   }
 
