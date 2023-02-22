@@ -1,6 +1,6 @@
 {
   "name": "react-math-magicians",
-  "homepage": "https://rivasbolinga.github.io/React-Math-magicians/",
+  "homepage": "https://math-magicians-ni7a.onrender.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && render deploy"
   },
   "eslintConfig": {
     "extends": [
