@@ -72,7 +72,7 @@ alt="logo" width="140"  height="auto"  />
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can have a Live Demo: https://rivasbolinga.github.io/React-Math-magicians/
+You can have a Live Demo: https://react-m-magicians.onrender.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,25 +140,17 @@ npx eslint "**/*.{js,jsx}"
 
 **To deploy this project  with react:**
 
-1.Install gh-pages:
 
-```
-npm i gh-pages
-```
-2. Change package JSON, 
+1. Change package JSON, 
 
 -adding inside "scrpits":
 
 ```
-   "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "npm run build && render deploy"
 ```
--adding a homepage:
 
-```
-  "homepage": "https://rivasbolinga.github.io/React-Math-magicians/",
-```
-3. Update:
+2. Update:
 
 ```
 npm run build
