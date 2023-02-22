@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Math-magicians/static/css/main.8dd88d61.css",
-    "main.js": "/React-Math-magicians/static/js/main.419416de.js",
+    "main.css": "/React-Math-magicians/static/css/main.a66ddfb4.css",
+    "main.js": "/React-Math-magicians/static/js/main.69ac7aca.js",
     "static/js/787.dfd053b6.chunk.js": "/React-Math-magicians/static/js/787.dfd053b6.chunk.js",
     "static/media/pizarra-vacia.jpg": "/React-Math-magicians/static/media/pizarra-vacia.77d11f853db71c50dfc3.jpg",
     "static/media/dan-cristian-padure-h3kuhYUCE9A-unsplash.jpg": "/React-Math-magicians/static/media/dan-cristian-padure-h3kuhYUCE9A-unsplash.3ff47477590647eca0fd.jpg",
     "index.html": "/React-Math-magicians/index.html",
-    "main.8dd88d61.css.map": "/React-Math-magicians/static/css/main.8dd88d61.css.map",
-    "main.419416de.js.map": "/React-Math-magicians/static/js/main.419416de.js.map",
+    "main.a66ddfb4.css.map": "/React-Math-magicians/static/css/main.a66ddfb4.css.map",
+    "main.69ac7aca.js.map": "/React-Math-magicians/static/js/main.69ac7aca.js.map",
     "787.dfd053b6.chunk.js.map": "/React-Math-magicians/static/js/787.dfd053b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dd88d61.css",
-    "static/js/main.419416de.js"
+    "static/css/main.a66ddfb4.css",
+    "static/js/main.69ac7aca.js"
   ]
 }
