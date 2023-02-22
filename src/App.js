@@ -7,12 +7,13 @@ const App = () => {
     return ( 
       <>
        <BrowserRouter>
-       <Navbar />
         <Routes>
-         <Route path="/" element={<Home />} />
-         <Route path="/calculator" element={<Calculator />} />
-         <Route path="/Quote" element={<Quote />} />
-      </Routes>
+        <Route element={ < Navbar />} >
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/Quote" element={<Quote />} />
+          </Route>
+        </Routes>
     </BrowserRouter>
       </>
     )
