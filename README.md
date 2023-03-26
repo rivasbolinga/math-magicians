@@ -38,10 +38,8 @@ alt="logo" width="140"  height="auto"  />
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -79,9 +77,10 @@ You can have a Live Demo: https://react-m-magicians.onrender.com/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-
 To get a local copy up and running, follow these steps.
+
+
+<!-- PREREQUISITES -->
 
 ### Prerequisites
 
@@ -93,6 +92,8 @@ In order to run this project you need:
 - [ ] Webpack installed
 - [ ] Knowledge of some basic Git commands
 
+<!-- SETUP -->
+
 ### Setup
 
 - [ ] Link your PC to GitHub
@@ -100,30 +101,36 @@ In order to run this project you need:
 
 
 ```
-
 git clone https://github.com/rivasbolinga/React-Math-magicians.git
 ```
 
-
 - [ ] Open the file in your code editor
+  
+<!-- INSTALL -->
 
+### Install
 
+Install this project with:
 
-
-###  Create React App:
-
-Run these commands:
-- [ ] `npx create-react-app my-app`
-- [ ] `cd my-app`
-- [ ] `npm start`
-
+```
+npm install
+```
 
 ###  Instal linters for React and Redux:
 
 Here the link to install your linters: https://github.com/microverseinc/linters-config
 
+<!-- USAGE -->
 
-###  Run test linters:
+### Usage
+To run the project, execute the following command:
+
+```
+npm start
+```
+<!-- RUN TESTS -->
+
+###  Run tests
 
 To run Stylelint and ESLint tests, run the following commands respectively:
 
@@ -133,33 +140,8 @@ npx stylelint "**/*.{css,scss}"
 
 ```
 npx eslint "**/*.{js,jsx}"
-
-```
-###  Run test linters:
-
-**To deploy this project  with react:**
-
-
-1. Change package JSON, 
-
--adding inside "scrpits":
-
-```
-    "predeploy": "npm run build",
-    "deploy": "npm run build && render deploy"
 ```
 
-2. Update:
-
-```
-npm run build
-```
-
-4. Finally, deploy:
-
-```
-npm run deploy
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
