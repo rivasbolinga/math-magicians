@@ -5,7 +5,7 @@ alt="logo" width="140"  height="auto"  />
 
 
 
-# 📖 [MATH_MAGICIANS] <a name="about-project"></a>
+# 📖 MATH_MAGICIANS <a name="about-project"></a>
 
 
 </div>
@@ -21,7 +21,7 @@ alt="logo" width="140"  height="auto"  />
  
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
-**[Math Magicians]** is a website built with React that renders a calculator where the user can make simple math operations. It is part of the 3rd module: React of the Microverse programm curriculum. In this part of the project I have done the React setup
+**Math Magicians** is a website built with React that renders a calculator where the user can make simple math operations. It is part of the 3rd module: React of the Microverse programm curriculum. In this part of the project I have done the React setup
 
 <!-- TABLE OF CONTENTS -->
 
@@ -54,16 +54,15 @@ alt="logo" width="140"  height="auto"  />
 <a href="https://www.w3.org/html/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="55" height="55"/></a><a href="https://www.w3schools.com/css/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="55" height="55"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/></a>
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-<img align="center" src="https://raw.githubusercontent.com/reactjs/reactjs.org/main/src/icons/logo.svg" alt="react" width="60" height="60"/></a>
-
+<img align="center" src="https://cdn-icons-png.flaticon.com/512/1183/1183672.png" alt="react" width="60" height="60"/></a>
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application.-->
-- [ ] **[Totally responsive]**
-- [ ] **[Pop-up menu for mobile version]**
-- [ ] **[three pages: home, quote and calculator]**
-- [ ] **[Calculator ot make simple operations]**
+- [ ] **Totally responsive**
+- [ ] **Pop-up menu for mobile version**
+- [ ] **three pages: home, quote and calculator**
+- [ ] **Calculator ot make simple operations**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -182,9 +181,9 @@ npm run deploy
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Previous and current operantion in the display opf the calculator]**
-- [ ] **[Improve styling]**
-- [ ] **[More problems]**
+- [ ] **Previous and current operantion in the display opf the calculator**
+- [ ] **Improve styling**
+- [ ] **More problems**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
