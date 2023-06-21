@@ -39,9 +39,9 @@ alt="logo" width="140"  height="auto"  />
   - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
+- [🙏 Acknowledgements](#acknowledgements)
 - [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 </div>
 
