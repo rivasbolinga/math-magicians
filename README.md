@@ -21,7 +21,8 @@ alt="logo" width="140"  height="auto"  />
  
  <a name="about-project"></a>
 <!-- PROJECT DESCRIPTION -->
-**Math Magicians** is a website built with React that renders a calculator where the user can make simple math operations. It is part of the 3rd module: React of the Microverse programm curriculum. In this part of the project I have done the React setup
+
+Welcome to Math Magicians, an innovative website built with React that empowers you to become a math magician yourself. With our user-friendly calculator, you can effortlessly perform simple mathematical operations and explore the fascinating world of numbers. Math Magicians is an integral part of the third module of the Microverse program curriculum, dedicated to mastering React and its powerful capabilities
 
 <!-- TABLE OF CONTENTS -->
 
