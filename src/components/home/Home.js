@@ -1,13 +1,28 @@
 import './Home.scss'
-
+import riddle from './riddle.json'
+import { useState} from 'react';
+import { useEffect } from 'react'
 
 
 const Home =  () => {
 
+const [puzzle,setPuzzle] = useState("")
+const [puzzleAnswer,setPuzzleAnswer] = useState()
+const [puzzleExplanation,setPuzzleExplanation] = useState("")
+useEffect(()=>{
+  let randomArrayNumber =  Math.floor(Math.random()*5)
 
-  
+  setPuzzle(riddle[randomArrayNumber].riddle)
+  setPuzzleAnswer(riddle[randomArrayNumber].answer)
+  setPuzzleExplanation(riddle[randomArrayNumber].explanation)
+},[])
+
+
+  console.log(puzzle);
+  console.log(puzzleAnswer);
+  console.log(puzzleExplanation);
   return (
-    <>
+    
     <div className="home-main">
       <div className="all-container">
         <h1 className="title-problems">Can you solve these problems?</h1>
@@ -30,7 +45,7 @@ const Home =  () => {
         
       </div>
     </div>
-    </>
+    
   )
 }
 
