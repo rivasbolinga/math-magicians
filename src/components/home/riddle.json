@@ -1,0 +1,27 @@
+[
+    {
+        "riddle":"Using only addition, add eight 8s to get the number 1,000.",
+        "answer":1000,
+        "explanation":"888 + 88 + 8 + 8 + 8 = 1,000. This is the kind of number riddle you can work out with times tables, or by simple logic. First, get as close to 1,000 as you can (888). From there, it’s easy to figure out the rest."
+    },
+    {
+        "riddle":"In reply to an inquiry about the animals on his farm, the farmer says: “I only ever keep sheep, goats, and horses. In fact, at the moment they are all sheep bar three, all goats bar four, and all horses bar five.” How many sheep does he have of each animal?",
+        "answer": 3,
+        "explanation":"The farmer has 3 sheep, 2 goats, and 1 horse. You can solve this easy math riddle with a quick hypothetical. Take sheep: we know that there are three animals that are goats and horses, so we suppose there are two goats and one horse. Checking this hypothesis gives us three sheep, which works out because there are four non-goats: three sheep, and one horse! "
+    },
+    {
+        "riddle":"One brother says of his younger brother: “Two years ago, I was three times as old as my brother was. In three years’ time, I will be twice as old as my brother.” How old is  the older brother now?",
+        "answer":20,
+        "explanation":"One way to solve this math riddle is to use even numbers: The older brother will be twice as old as his younger brother in three years’ time. This immediately rules out the older brother currently being 8, 11, and 14, so he must be 17, and the younger brother 7. Two years ago, they were 15 and 5 respectively, and in three years’ time, they will be 20 and 10."
+    },
+    {
+        "riddle":"Old Granny Adams left half her money to her granddaughter and half that amount to her grandson. She left a sixth to her brother, and the remainder, $1,000, to the dogs’ home. How much did she leave altogether?",
+        "answer":12000,
+        "explanation":"This one might have tripped you up! But the trick is not to focus on the hypothetical amounts, but on the fractions: Adding one half, one quarter, and one sixth tells us that the total is a fraction of twelfths (2+4+6=12). You can also think about it as 6/12, 3/12, 2/12, which equals 11/12. If the remainder is $1,000, that must be one-twelfth, so the total is $12,000."
+    },
+    {
+        "riddle":"If a hen and a half lay an egg and a half in a day and a half, how many eggs will half a dozen hens lay in half a dozen days?",
+        "answer":24,
+        "explanation":"Two dozen. If you increase both the number of hens and the amount of time available four-fold (i.e., 1.5 times 4 equals 6), the number of eggs increases 16 times. 16 x 1.5 = 24."
+    }
+]
