@@ -1,5 +1,11 @@
 import './Home.scss'
-const Home = () => {
+
+
+
+const Home =  () => {
+
+
+  
   return (
     <>
     <div className="home-main">
@@ -20,7 +26,7 @@ const Home = () => {
           </div>
         </div>
         
-        
+      <button >btn</button>
         
       </div>
     </div>
