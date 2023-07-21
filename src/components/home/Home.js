@@ -9,6 +9,25 @@ const Home =  () => {
 const [puzzle,setPuzzle] = useState("")
 const [puzzleAnswer,setPuzzleAnswer] = useState()
 const [puzzleExplanation,setPuzzleExplanation] = useState("")
+
+const [answer,setAnswer] = useState("")
+const handleSubmitData = (e)=>{
+  setAnswer(e.target.value)
+}
+const handleSubmit = () =>{
+  if(answer){
+    if(answer == puzzleAnswer){
+      console.log("correct");
+    }
+    else{
+      console.log("wrong");
+    }
+  }
+  else{
+    alert("give input answer")
+  }
+}
+
 useEffect(()=>{
   let randomArrayNumber =  Math.floor(Math.random()*5)
 
@@ -18,9 +37,8 @@ useEffect(()=>{
 },[])
 
 
-  console.log(puzzle);
-  console.log(puzzleAnswer);
-  console.log(puzzleExplanation);
+ console.log(puzzleExplanation);
+ console.log(puzzleAnswer);
   return (
     
     <div className="home-main">
@@ -34,8 +52,8 @@ useEffect(()=>{
 
         </div>
         <div className='form'>
-          <input type="number" placeholder='Try Answering...'></input>
-          <button id="submit-btn">submit</button>
+          <input type="number" onChange={handleSubmitData} placeholder='Try Answering...'></input>
+          <button id="submit-btn" onClick={handleSubmit}>submit</button>
         </div>
         
 
