@@ -33,8 +33,12 @@ useEffect(()=>{
           </div>
 
         </div>
+        <div className='form'>
+          <input type="number" placeholder='Try Answering...'></input>
+          <button id="submit-btn">submit</button>
+        </div>
         
-      <button >btn</button>
+
         
       </div>
     </div>

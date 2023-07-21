@@ -2,15 +2,22 @@
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   font-size: 30px;
-  padding: 40px 0 30px 0;
+
 }
 
 .problemss-container {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
    background-color: rgba(255, 228, 196, 0);
+}
+
+.all-container{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
 }
 
 .problemm-container {
@@ -38,7 +45,7 @@
     display: flex;
     justify-content: center;
 
-    width: 100%;
+    width: 80%;
     height: 100%;
     background-color: rgba(127, 255, 212, 0);
     font-size: 25px;
@@ -46,6 +53,21 @@
 
 
   }
+}
+.form{
+  display: flex;
+  background-color: rgba(127, 255, 212, 0);
+  flex-direction: column;
+  width: 20%;
+}
+#submit-btn{
+  width: auto;
+  height: auto;
+  margin-top: 5px;
+
+}
+input{
+  height: 25px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,6 +77,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(127, 255, 212, 0);
  
   }
 
@@ -68,16 +91,21 @@
     align-items: center;
 
     .titlee-problem {
-      font-size: 50px;
+      font-size: 30px;
+      margin-top: 20px;
     }
 
     .textt-problem {
-      width: 400px;
-      text-align: center;
-      font-size: 25px;
+      width: 90%;
+   margin-top: 0px;
+   position: relative;
+   bottom: 20px;
+      font-size: 20px;
     }
   }
-
+.form{
+  width: 60%;
+}
 }
 @media(max-width:400px){
   .textt-problem{
