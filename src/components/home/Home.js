@@ -17,7 +17,7 @@ const Home = () => {
       if (answer == puzzleAnswer) {
         alert("correct");
       } else {
-        wrong("wrong");
+        alert("wrong");
       }
     } else {
       alert("give input answer");
