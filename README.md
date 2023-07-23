@@ -70,7 +70,7 @@ Welcome to Math Magicians, an innovative website built with React that empowers 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can have a Live Demo: https://react-m-magicians.onrender.com/
+You can have a Live Demo: https://deploy-preview-11--math-magicians-react-rivasbolinga.netlify.app/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,18 +146,7 @@ npx eslint "**/*.{js,jsx}"
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-
-👤 **Andrea Rivas**
-
-- GitHub: [@rivasbolinga](https://github.com/rivasbolinga)
-- Twitter: [@AndreaRivasPal](https://twitter.com/AndreaRivasPal)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
