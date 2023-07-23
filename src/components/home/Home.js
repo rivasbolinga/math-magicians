@@ -12,16 +12,26 @@ const Home = () => {
   const handleSubmitData = (e) => {
     setAnswer(e.target.value);
   };
+  let count = 0
   const handleSubmit = () => {
-    if (answer) {
-      if (answer == puzzleAnswer) {
-        alert("correct");
+    if(count < 3){
+    
+      if (answer) {
+        count++
+        console.log(count);
+        if (answer == puzzleAnswer) {
+          alert("correct");
+        } else {
+          alert("wrong");
+    
+        }
       } else {
-        alert("wrong");
+        alert("give input answer");
       }
-    } else {
-      alert("give input answer");
     }
+   else{
+    alert(puzzleExplanation)
+   }
   };
 
   useEffect(() => {
@@ -32,8 +42,8 @@ const Home = () => {
     setPuzzleExplanation(riddle[randomArrayNumber].explanation);
   }, []);
 
-  console.log(puzzleExplanation);
-  console.log(puzzleAnswer);
+
+
   return (
     <div className="home-main">
       <div className="all-container">
